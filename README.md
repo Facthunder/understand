@@ -19,7 +19,8 @@ Here is the versions matrix of the image:
 
 |                            TAG                             |                                       UNDERSTAND VERSION                                           |                           BASE IMAGE                        |
 |:----------------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------:|
-|  [latest](https://hub.docker.com/r/facthunder/understand)  | [1004](http://builds.scitools.com/all_builds/b1004/Understand/Understand-5.1.1004-Linux-64bit.tgz) | [python:3.8.5-slim-buster](https://hub.docker.com/_/python) |
+|  [latest](https://hub.docker.com/r/facthunder/understand)  | [1029](http://builds.scitools.com/all_builds/b1004/Understand/Understand-5.1.1029-Linux-64bit.tgz) | [python:3.8.5-slim-buster](https://hub.docker.com/_/python) |
+|   [1029](https://hub.docker.com/r/facthunder/understand)   | [1029](http://builds.scitools.com/all_builds/b1029/Understand/Understand-5.1.1029-Linux-64bit.tgz) | [python:3.8.5-slim-buster](https://hub.docker.com/_/python) |
 |   [1004](https://hub.docker.com/r/facthunder/understand)   | [1004](http://builds.scitools.com/all_builds/b1004/Understand/Understand-5.1.1004-Linux-64bit.tgz) | [python:3.8.5-slim-buster](https://hub.docker.com/_/python) |
 
 ### How to contribute
