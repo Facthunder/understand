@@ -1,7 +1,7 @@
 FROM python:3.8.5-slim-buster AS base
 
 ENV UNDERSTAND_VERSION=5.1
-ENV UNDERSTAND_BUILD=1004
+ENV UNDERSTAND_BUILD=1029
 
 ENV PATH="/opt/scitools/bin/linux64:${PATH}"
 ENV STIHOME=/opt/scitools
