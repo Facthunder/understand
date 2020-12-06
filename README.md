@@ -7,11 +7,11 @@ This project aims to provide a simple Docker image to encapsulate and run a [Und
 #### Run core checks
 Assuming current directory contains the source code to analyze, simply run the following command:
 ```Dockerfile
-docker run --rm -v ${PWD}:/src facthunder/understand:latest "und create -languages c++ -db understand-database.udb"
-docker run --rm -v ${PWD}:/src facthunder/understand:latest "und settings -AddMode Relative -db understand-database.udb"
-docker run --rm -v ${PWD}:/src facthunder/understand:latest "und add -db understand-database.udb ."
-docker run --rm -v ${PWD}:/src facthunder/understand:latest "und analyze -db understand-database.udb"
-docker run --rm -v ${PWD}:/src facthunder/understand:latest "und codecheck -flattentree -db understand-database.udb UnderstandCodecheckConfiguration.ini ."
+docker run --rm -v ${PWD}:/src facthunder/understand:latest und create -languages c++ -db understand-database.udb
+docker run --rm -v ${PWD}:/src facthunder/understand:latest und settings -AddMode Relative -db understand-database.udb
+docker run --rm -v ${PWD}:/src facthunder/understand:latest und add -db understand-database.udb .
+docker run --rm -v ${PWD}:/src facthunder/understand:latest und analyze -db understand-database.udb
+docker run --rm -v ${PWD}:/src facthunder/understand:latest und codecheck -flattentree -db understand-database.udb UnderstandCodecheckConfiguration.ini .
 ```
 
 ### Versions matrix
