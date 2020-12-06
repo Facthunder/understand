@@ -18,5 +18,3 @@ RUN tar -xzvf /tmp/Understand-${UNDERSTAND_VERSION}.${UNDERSTAND_BUILD}-Linux-64
 
 LABEL maintainer="begarco"
 WORKDIR /src
-
-ENTRYPOINT ["sh", "-c"]
